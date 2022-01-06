@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+
+<h1>O Problema das Gerações</h1>
+
+<script>
+
+var anoAtual = 2020
+
+function pulaLinha() {
+
+	document.write("<h1>")
+}
+
+function mostra(valor) {
+
+	document.write(valor)
+}
+
+anosPassados = anoAtual - 1500
+
+geracoesPassadas = anosPassados/28
+
+pulaLinha();
+mostra(" Já se passaram: "+Math.round(geracoesPassadas)+" Gerações!")
+pulaLinha();
+
+</script>
