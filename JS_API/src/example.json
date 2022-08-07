@@ -1,0 +1,22 @@
+{
+    "nome":"Seu nome",
+    "cidade":"Sua cidade",
+    "Telefone":98888888,
+    "Livros": [
+        "livro1",
+        "livro2",
+        "livro3"
+    ],
+    "objeto": {
+        "chave":"valor",
+        "outro_objeto": {
+            "chave1":123,
+            "chave2":"valor",
+            "chave3": [
+                "um",
+                "dois",
+                3
+            ]
+        }
+    }
+}
